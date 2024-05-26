@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+font-family: montserrat;
+}
+body {
+    background: linear-gradient(106deg, #050505, #0c203b);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 21s ease infinite;
+    -moz-animation: AnimationName 21s ease infinite;
+    animation: AnimationName 21s ease infinite;
+}
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 47%}
+    50%{background-position:100% 54%}
+    100%{background-position:0% 47%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 47%}
+    50%{background-position:100% 54%}
+    100%{background-position:0% 47%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 47%}
+    50%{background-position:100% 54%}
+    100%{background-position:0% 47%}
+}
+#titulo{
+  animation: glitch 1s linear infinite;
+}
+
+@keyframes glitch{
+  2%,64%{
+    transform: translate(2px,0) skew(0deg);
+  }
+  4%,60%{
+    transform: translate(-2px,0) skew(0deg);
+  }
+  62%{
+    transform: translate(0,0) skew(5deg); 
+  }
+}
+
+#titulo:before,
+#titulo:after{
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
+
+#titulo:before{
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop{
+  2%,64%{
+    transform: translate(2px,-2px);
+  }
+  4%,60%{
+    transform: translate(-2px,2px);
+  }
+  62%{
+    transform: translate(13px,-1px) skew(-13deg); 
+  }
+}
+
+#titulo:after{
+  animation: glitchBotom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBotom{
+  2%,64%{
+    transform: translate(-2px,0);
+  }
+  4%,60%{
+    transform: translate(-2px,0);
+  }
+  62%{
+    transform: translate(-22px,5px) skew(21deg);
+  }
+}
