@@ -10,44 +10,52 @@
 </head>
 <body class="dark:bg-gray-800 bg-opacity-80">
 	<section>
-		<nav class="flex md:hidden justify-between items-center pt-[15px] pb-[15px] pr-[25px] pl-[25px]">
-			<img src="./imagenes/jesus-removebg-preview (1).png" alt="JesusDevPhoto" class="w-24">
+		<div class="flex md:hidden justify-between items-center pt-[30px] pb-[15px] pr-[25px] pl-[25px]">
+			<img src="./imagenes/Recurso_1-removebg-preview2.png" alt="JesusDevPhoto" class="w-24">
 			<i class="fa-solid fa-bars text-white "></i>
-		</nav>
-		<nav class="hidden md:flex flex justify-center items-center pt-[15px] ">
+		</div>
+		<nav class="hidden md:flex flex justify-center items-center pt-[15px]">
 				<div class="inline-flex rounded-md shadow-sm" role="group">
+					<a href="#SobreMi">
 					<button type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-s-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-blue-500 dark:focus:text-white">
 						Sobre Mi
 					</button>
+				</a>
+					<a href="#Habilidades">
 					<button type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-blue-500 dark:focus:text-white">
 						Habilidades
 					</button>
+					</a>
+					<a href="#Proyectos">
 					<button type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-blue-500 dark:focus:text-white">
 						Proyectos
 					</button>
+					</a>
+					<a href="#Contacto">
 					<button type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-e-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-blue-500 dark:focus:text-white">
 						Contacto
 					</button>
+					</a>
 				</div>
 			</nav>
 	</section>
 	<main>
-		<section class="grid grid-cols-1 pt-[40px]">
+		<section id="Inicio" class="grid grid-cols-1 pt-[40px]">
 			<div class="flex flex-col justify-center items-center">
 				<h1 id="Titulo" class=" animate-jump-in animate-once animate-duration-[4000ms] mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
 					Bienvenid@</h1>
 				<p class="text-center mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
 					¡Un Gusto!<br>Soy Jesus Jimenez<br>Desarrollador web y fotografo</p>
-				<button class="mt-[10px] animate-bounce inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
+				<a href="./documentos/JimenezJCV.pdf" target="_blank"><button class="mt-[10px] animate-bounce inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
 					<span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
 						Descargar CV
 					</span>
-				</button>
+				</button></a>
 				<p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Jimenezporrasjesus@gmail.com</p>
 				<hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
 			</div>
 		</section>
-		<section class="grid grid-cols-1 md:grid-cols-2 gap-[10px] pt-[30px]">
+		<section id="SobreMi" class="grid grid-cols-1 md:grid-cols-2 gap-[10px] pt-[30px]">
 			<div class="flex flex-col justify-center items-center md:justify-center md:items-end">
 				<img src="./imagenes/perfil.jpg" alt="jesustomandounafoto" class="w-[223px] h-[250px] rounded-[15%] hover:animate-pulse">
 			</div>
@@ -60,48 +68,74 @@
 		<section class="pt-[35px]">
 			<hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
 		</section>
-		<section class="flex flex-col justify-center items-center gap-[25px] pt-[30px]">
+		<section id="Habilidades" class="flex flex-col justify-center items-center gap-[25px] pt-[30px]">
 			<h1 class="text-3xl font-bold text-white ">Habilidades</h1>
 				<div class="grid grid-cols-2 md:grid-cols-4 gap-[45px] ml-[45px] mr-[45px] pt-[35px] items-center justify-center">
 					<div class="flex flex-col justify-center items-center">
-							<img class="h-auto max-w-[50%] rounded-lg hover:animate-bounce" src="./imagenes/html.png" alt="">
+							<a href="https://lenguajehtml.com" target="_blank" class="h-auto max-w-[50%] rounded-lg "><img class="hover:animate-bounce" src="./imagenes/html.png" alt=""></a>
 					</div>
 					<div class="flex flex-col justify-center items-center">
-							<img class="h-auto max-w-[50%] rounded-lg hover:animate-bounce" src="./imagenes/css-3.png" alt="">
+							<a href="https://lenguajecss.com" target="_blank" class="h-auto max-w-[50%] "><img class="rounded-lg hover:animate-bounce" src="./imagenes/css-3.png" alt=""></a>
 					</div>
 					<div class="flex flex-col justify-center items-center">
-							<img class="h-auto max-w-[50%] rounded-lg hover:animate-bounce" src="https://sass-lang.com/assets/img/logos/logo.svg" alt="">
+						<a href="https://lenguajejs.com" target="_blank" class="h-auto max-w-[50%] rounded-lg "><img class="hover:animate-bounce" src="./imagenes/vecteezy_javascript-logo-png-javascript-icon-transparent-png_27127463.png" alt=""></a>
 					</div>
 					<div class="flex flex-col justify-center items-center">
-							<img class="h-auto max-w-[50%] rounded-lg hover:animate-bounce" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="">
+							<a href="https://sass-lang.com" target="_blank" class="h-auto max-w-[50%] rounded-lg "><img class="hover:animate-bounce" src="https://sass-lang.com/assets/img/logos/logo.svg" alt=""></a>
 					</div>
 					<div class="flex flex-col justify-center items-center">
-							<img class="h-auto max-w-[50%] rounded-lg hover:animate-bounce" src="./imagenes/github.png" alt="">
+							<a href="https://tailwindcss.com" target="_blank" class="h-auto max-w-[50%] rounded-lg "><img class="hover:animate-bounce" src="./imagenes/tailwind-removebg-preview.png" alt=""></a>
 					</div>
 					<div class="flex flex-col justify-center items-center">
-							<img class="h-auto max-w-[50%] rounded-lg hover:animate-bounce" src="./imagenes/git.png" alt="">
+						<a href="https://es.react.dev" target="_blank" class="h-auto max-w-[50%] rounded-lg "><img class="hover:animate-bounce" src="./imagenes/1174949_js_react js_logo_react_react native_icon.png" alt=""></a>
 					</div>
 					<div class="flex flex-col justify-center items-center">
-						<img class="h-auto max-w-[50%] rounded-lg hover:animate-bounce" src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/ps_appicon.svg" alt="">
+						<a href="https://ve.wordpress.org" target="_blank" class="h-auto max-w-[50%] rounded-lg "><img class="hover:animate-bounce" src="./imagenes/1298776_wordpress_icon.png" alt=""></a>
 					</div>
 					<div class="flex flex-col justify-center items-center">
-						<img class="h-auto max-w-[50%] rounded-lg hover:animate-bounce" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg/768px-Adobe_Photoshop_Lightroom_CC_logo.svg.png" alt="">
+						<a href="https://github.com/jimenezpja" target="_blank" class="h-auto max-w-[50%] rounded-lg "><img class="hover:animate-bounce" src="./imagenes/github.png" alt=""></a>
+					</div>
+					<div class="flex flex-col justify-center items-center">
+							<a href="https://git-scm.com" target="_blank" class="h-auto max-w-[50%] rounded-lg"><img class="hover:animate-bounce" src="./imagenes/git.png" alt=""></a>
+					</div>
+					<div class="flex flex-col justify-center items-center">
+						<a href="https://www.figma.com/es-es/" target="_blank" class="h-auto max-w-[50%] rounded-lg "><img class="hover:animate-bounce" src="./imagenes/7564187_figma_logo_brand_icon.png" alt=""></a>
+					</div>
+					<div class="flex flex-col justify-center items-center">
+						<a href="https://www.adobe.com/la/products/photoshop.html" target="_blank" class="h-auto max-w-[50%] rounded-lg"> <img class="hover:animate-bounce" src="./imagenes/photoshop-removebg-preview.png" alt=""> </a>
+					</div>
+					<div class="flex flex-col justify-center items-center">
+						<a href="https://www.adobe.com/la/products/photoshop-lightroom.html" target="_blank" class="h-auto max-w-[50%] rounded-lg "><img class="hover:animate-bounce" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg/768px-Adobe_Photoshop_Lightroom_CC_logo.svg.png" alt=""></a>
 					</div>
 				</div>
 		</section>
 		<section class="pt-[35px]">
 			<hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
 		</section>
-		<section class="flex flex-col md:flex flex-row justify-center items-center gap-[25px] pt-[30px]">
+		<section id="Proyectos" class="flex flex-col md:flex flex-row justify-center items-center gap-[25px] pt-[30px]">
 			<h1 class="text-3xl font-bold text-white ">Proyectos</h1>
 			<h1 class="text-2xl font-bold text-white ">Desarrollo Web</h1>
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-[45px] ml-[45px] mr-[45px] pt-[35px] items-center justify-center">
+			
 			<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:animate-pulse">
-				<img class="rounded-t-lg" src="./imagenes/youtube.png" alt="" />
+				<a href="./imagenes/Opera Instantánea_2024-09-04_203352_localhost.png" target="_blank"><img class="rounded-t-lg" src="./imagenes/Opera Instantánea_2024-09-04_203352_localhost.png" alt="" /></a>
+				<div class="p-5">
+					<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Aplicacion del clima</h5>
+					<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Se realizo una aplicacion de clima, consumo de una API con las tecnologias reactjs, tailwindcss y javascript. Se creó un repositorio en github para ver el codigo.</p>
+					<a href="https://github.com/jimenezpja/ProyectoReact/tree/main/weatherApp" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+							Visitalo
+					<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+						<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+					</svg>
+					</a>
+				</div>
+			</div>
+			<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:animate-pulse">
+				<a href="./imagenes/youtube.png" target="_blank"><img class="rounded-t-lg" src="./imagenes/youtube.png" alt="" /></a>
 				<div class="p-5">
 					<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Copia de Youtube</h5>
 					<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Se realizo una copia de la pagina principal de youtube responsive con las tecnologias de HTML y CSS. Se creó un repositorio en github.</p>
-					<a href="https://jimenezpja.github.io/Youtube1/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+					<a href="https://jimenezpja.github.io/Youtube1/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
 						Visitalo
 					<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
 						<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
@@ -110,25 +144,12 @@
 				</div>
 			</div>
 			<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:animate-pulse">
-				<img class="rounded-t-lg" src="./imagenes/netflix.png" alt="" />
+				<a href="./imagenes/lista.png" target="_blank"><img class="rounded-t-lg" src="./imagenes/lista.png" alt="" /></a>
 				<div class="p-5">
-					<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Copia de Netflix</h5>
-					<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Se realizo una copia de la pagina principal de Netflix con las tecnologias de HTML y CSS. Se creó un repositorio en github.</p>
-					<a href="https://jimenezpja.github.io/NetflixJesus/" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-							Visitalo
-					<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-						<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-					</svg>
-					</a>
-				</div>
-			</div>
-			<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:animate-pulse">
-				<img class="rounded-t-lg" src="./imagenes/movistar.png" alt="" />
-				<div class="p-5">
-					<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Copia de Movistar</h5>
-					<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Se realizo una reinterpretación de la pagina principal de Movistar con las tecnologias de HTML, CSS y SASS. Se creó un repositorio en github.</p>
-					<a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-							Visitalo
+					<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">To Do List</h5>
+					<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Se realizo una lista de tareas utilizando HTML, Tailwind, CSS y JavaScript. Se creó un repositorio en github.</p>
+					<a href="https://jimenezpja.github.io/ListadeTareas/" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+							Pruebala
 					<svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
 						<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
 					</svg>
@@ -141,7 +162,7 @@
 			<h1 class="text-2xl font-bold text-white ">Fotografía</h1>
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-[45px] ml-[45px] mr-[45px] pt-[35px] items-center justify-center">
 			<div class="hover:animate-pulse w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-					<a href="#">
+					<a href="./imagenes/cerrocafe.jpg" target="_blank">
 						<img class="p-8 rounded-t-lg" src="./imagenes/cerrocafe.jpg" alt="product image" />
 					</a>
 				<div class="px-5 pb-5">
@@ -152,13 +173,13 @@
 					</div>
 					<div class="flex items-center mt-2.5 mb-5">
 						<div class="flex items-center justify-between">
-							<a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Visitalo</a>
+							<a href="./imagenes/cerrocafe.jpg" target="_blank" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Visitalo</a>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="hover:animate-pulse w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-				<a href="#">
+				<a href="./imagenes/naileth.jpg" target="_blank">
 					<img class="p-8 rounded-t-lg " src="./imagenes/naileth.jpg" alt="product image" />
 				</a>
 			<div class="px-5 pb-5">
@@ -169,13 +190,13 @@
 				</div>
 				<div class="flex items-center mt-2.5 mb-5">
 					<div class="flex items-center justify-between">
-						<a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Visitalo</a>
+						<a href="./imagenes/naileth.jpg" target="_blank" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Visitalo</a>
 					</div>
 				</div>
 			</div>
 			</div>
 			<div class="hover:animate-pulse w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-				<a href="#">
+				<a href="./imagenes/JesusJImenez 2-5.jpg" target="_blank">
 					<img class="p-8 rounded-t-lg" src="./imagenes/JesusJImenez 2-5.jpg" alt="product image" />
 				</a>
 			<div class="px-5 pb-5">
@@ -186,7 +207,7 @@
 				</div>
 				<div class="flex items-center mt-2.5 mb-5">
 					<div class="flex items-center justify-between">
-						<a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Visitalo</a>
+						<a href="./imagenes/JesusJImenez 2-5.jpg" target="_blank" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Visitalo</a>
 					</div>
 				</div>
 			</div>
@@ -194,28 +215,24 @@
 		</div>
 		</section>
 	</main>
-	<footer class="bg-white rounded-lg shadow dark:bg-gray-900 mt-[45px] pt-[35px]">
+	<footer id="Contacto" class="bg-white rounded-lg shadow dark:bg-gray-900 mt-[45px] pt-[35px]">
 		<div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
 				<div class="sm:flex sm:items-center sm:justify-around">
 						<a href="#" class="hidden md:flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-								<img src="./imagenes/jesus-removebg-preview (1).png" class="h-[15%]" alt="JesusLogo" />
+								<img src="./imagenes/Recurso_1-removebg-preview2.png" class="h-[15%]" alt="JesusLogo" />
 						</a>
 						<a href="#" class="flex mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse md:hidden w-[25%]">
-							<img src="./imagenes/jesus-removebg-preview (1).png" class="h-[15%]" alt="JesusLogo" />
+							<img src="./imagenes/Recurso_1-removebg-preview2.png" class="h-[15%]" alt="JesusLogo" />
 						</a>
 						<div class="flex flex-wrap items-center justify-center gap-[25px] pt-[15px] pb-[15px] md:hidden">
 							<img class="h-[10%] w-[10%] hover:animate-bounce" src="./imagenes/github.png" alt="">
 							<img class="h-[10%] w-[10%] hover:animate-bounce" src="./imagenes/instagram.png" alt="">
-							<img class="h-[10%] w-[10%] hover:animate-bounce" src="./imagenes/gmail.png" alt="">
-							<img class="h-[10%] w-[10%] hover:animate-bounce" src="https://play-lh.googleusercontent.com/bvaTHCfTJohpSWFgjXouNkNsVFnC5ssfdaurQzCvPnzBtflEwOEi5vq2vopY4Miv4lI=w240-h480" alt="">
-							<img class="h-[10%] w-[10%] hover:animate-bounce"src="https://store-images.s-microsoft.com/image/apps.31120.9007199266245564.44dc7699-748d-4c34-ba5e-d04eb48f7960.bc4172bd-63f0-455a-9acd-5457f44e4473?h=307" alt="">
+							<a href="#Inicio" class="h-[10%] w-[10%]"><img class="hover:animate-bounce" src="./imagenes/gmail.png" alt=""></a>
 						</div>
 						<div class="hidden md:flex flex-wrap items-center justify-center gap-[25px] pt-[15px] pb-[15px]">
-							<img class="h-[4%] w-[4%] hover:animate-bounce" src="./imagenes/github.png" alt="">
-							<img class="h-[4%] w-[4%] hover:animate-bounce" src="./imagenes/instagram.png" alt="">
-							<img class="h-[4%] w-[4%] hover:animate-bounce" src="./imagenes/gmail.png" alt="">
-							<img class="h-[4%] w-[4%] hover:animate-bounce" src="https://play-lh.googleusercontent.com/bvaTHCfTJohpSWFgjXouNkNsVFnC5ssfdaurQzCvPnzBtflEwOEi5vq2vopY4Miv4lI=w240-h480" alt="">
-							<img class="h-[4%] w-[4%] hover:animate-bounce"src="https://store-images.s-microsoft.com/image/apps.31120.9007199266245564.44dc7699-748d-4c34-ba5e-d04eb48f7960.bc4172bd-63f0-455a-9acd-5457f44e4473?h=307" alt="">
+							<a href="https://github.com/jimenezpja" target="_blank" class="h-[4%] w-[4%]"><img class="hover:animate-bounce" src="./imagenes/github.png" alt=""></a>
+							<a href="https://www.instagram.com/jj.devphoto?igsh=MWx6YTRqOHY0cm1nbQ==" class="h-[4%] w-[4%]" target="_blank"><img class="hover:animate-bounce" src="./imagenes/instagram.png" alt=""></a>
+							<a href="#Inicio" class="h-[4%] w-[4%]" ><img class="hover:animate-bounce" src="./imagenes/gmail.png" alt=""></a>
 						</div>
 						<ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
 								<li>
@@ -228,7 +245,7 @@
 										<a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
 								</li>
 								<li>
-										<a href="#" class="hover:underline">Contact</a>
+										<a href="#Inicio" class="hover:underline">Contact</a>
 								</li>
 						</ul>
 				</div>
